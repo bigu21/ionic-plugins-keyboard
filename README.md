@@ -25,7 +25,11 @@ These events are fired on the window.
 
 - native.keyboardshow
   * A number `keyboardHeight` is given on the event object, which is the pixel height of the keyboard.
+
 - native.keyboardhide
+
+- native.keyboardchange(iOS only) - Fired whenever keyboard properties are changed
+    * A number `keyboardHeight` is given on the event object, which is the pixel height of the keyboard.
 
 Keyboard.hideKeyboardAccessoryBar
 =================
